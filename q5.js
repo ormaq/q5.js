@@ -2629,3 +2629,8 @@ else window.p5 ??= Q5;
 document.addEventListener('DOMContentLoaded', () => {
 	if (!Q5._hasGlobal) new Q5('auto');
 });
+
+// lowercased aliases
+function q5(scope, parent) {
+	return new Q5(scope, parent);
+}
